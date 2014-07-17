@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-
-<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
-
+<!doctype html>
+<%@ page contentType="text/html; charset=utf-8" %>
+<html lang="ko">
 <head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>WAC 업무관리시스템</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<link rel="stylesheet" th:href="@{/lib/bootstrap/css/bootstrap.min.css}" href="../static/lib/bootstrap/css/bootstrap.min.css" />
-<link rel="stylesheet" th:href="@{/css/list.css}" href="../static/css/list.css" />
-
-<script th:src="@{/lib/jquery-2.1.1.min.js}" src="../static/lib/jquery-2.1.1.min.js"></script>
-<script th:src="@{/lib/bootstrap/js/bootstrap.min.js}" src="../static/lib/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./css/bootstrap.min.css" />
+<link rel="stylesheet" href="./css/list.css" />
+<script src="./js/jquery-2.1.1.min.js"></script>
 </head>
 
 <body>
@@ -84,7 +81,7 @@
             </h5>
         </div>
     </div>
-
+<script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
